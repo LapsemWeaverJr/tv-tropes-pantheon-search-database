@@ -1,0 +1,25 @@
+TV Tropes Pantheon Search Database
+Coded in Python by https://tvtropes.org/pmwiki/pmwiki.php/Tropers/Lapsem
+----------------------------------
+
+v1.0
+February 1st, 2024
+	ADDITIONS:
+		Search-boxes for sorting Trope, Deity, Namespace, Work, Hall, and House
+		Seven check-boxes for sorting Rank (Overdeity, Greater God, Intermediate God, Lesser God, Demigod, Quasideity and Ambiguous Rank)
+		A-Z and Z-A sorting for these seven criteria
+		Alphabetization for tropes and works that ignores words like "The" and "A" at the beginning of the string
+		A counter that tracks how many results are returned per search
+		A scrollbar to the right of the display field for easy navigation through lots of results
+		A "Reset Sort" button that removes whatever sorting filter is currently applied, and replaces it with the order that the entries are arranged in in the pantheon_data.csv file
+v1.1
+February 6th, 2024
+	ADDITIONS:
+		The pantheon_data_recorder.py file, designed to iterate over the Pantheon pages and record deity data into a .csv file
+		The list_of_pantheon_pages.txt file, which stores the addresses of the Pantheon pages' text data, iterated over as a list to look for Pantheon database data therein
+		The folders herein that contain the test page data, whose addresses are stored in the aforementioned list_of_pantheon_pages.txt
+v1.2
+February 8th, 2024
+	ADDITIONS:
+		Uploaded to GitHub
+		Added the README.md file, which contains general information about the program

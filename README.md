@@ -26,7 +26,7 @@ Instead of having a database that tropers manually add entries to and manually r
 `%% PANTHEON SEARCH DATABASE DATA: [=ButForMeItWasTuesday,M. Bison,Franchise,StreetFighter,Intermediate God,VillainousPersonalitiesAndQuirks,Villainy=]`
 
 Since this is a [.csv](https://en.wikipedia.org/wiki/Comma-separated_values) file, any entry therein that uses commas (such as for multiple characters in one profile) must be bookended by double-quotes (") or else it won't show up in the main program. For example:
-    
+
 `%% PANTHEON SEARCH DATABASE DATA: [=StarterMon,"Venusaur, Charizard and Blastoise",Franchise,Pokemon,Intermediate God,GameCharacters,Gaming=]`
 
 The benefit of this system is that search-database entries can be added right alongside the profiles that they correspond to. As for removal, this system has automatic "garbage cleanup" by completely overwriting the spreadsheet's data whenever it's updated: when a profile is moved or deleted, the now-outdated corresponding data is automatically winked away into nothingness the next time the spreadsheet updates -- which I imagine would be once per day. That also means that there's no use in directly editing the spreadsheet, since any changes to it will be overwritten unless they come from a profile on a Pantheon page.
