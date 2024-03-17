@@ -1,0 +1,2 @@
+This file, with its singular entry, was only included by me to make sure that the tv_tropes_pantheon_search.py file could handle characters with diacritics, like the "ä" in "Bäumer" -- previous tests turned it and other such characters into a jumble of two or three nonsense characters. The program CAN properly transcribe them now -- all I had to do was specify the spreadsheet file as 'encoding='utf-8''.
+%% PANTHEON SEARCH DATABASE DATA: [=WarIsHell,Paul Bäumer,Literature,AllQuietOnTheWesternFront,Quasideity,ValuesAndEthics,Philosophy=]
